@@ -1,10 +1,13 @@
-@import "./styles/variables";
-@import "./styles/base";
-@import "./styles/animinations";
-@import "./styles/typography";
-@import "./styles/utils";
-@import "./styles/mixin";
-@import "./styles/functions";
-@import "./styles/button";
+@import "./styles/abstracts/variables";
+@import "./styles/base/base";
+@import "./styles/base/animinations";
+@import "./styles/base/typography";
+@import "./styles/base/utils";
+@import "./styles/abstracts/mixin";
+@import "./styles/abstracts/functions";
+@import "./styles/common/button";
+@import "./styles/common/compositions";
+@import "./styles/layout/grid";
 
 @import "./components/header/header";
+@import "./components/about/about";
