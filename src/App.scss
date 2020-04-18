@@ -1,17 +1,25 @@
 @import "./styles/abstracts/variables";
+@import "./styles/abstracts/mixin";
+@import "./styles/abstracts/functions";
+
 @import "./styles/base/base";
 @import "./styles/base/animinations";
 @import "./styles/base/typography";
 @import "./styles/base/utils";
-@import "./styles/abstracts/mixin";
-@import "./styles/abstracts/functions";
+
+@import "./styles/layout/grid";
+
 @import "./styles/common/button";
 @import "./styles/common/compositions";
-@import "./styles/layout/grid";
 @import "./styles/common/feature-box";
 @import "./styles/common/card";
+@import "./styles/common/review";
+@import "./styles/common/bg-video";
+@import "./styles/common/form";
 
 @import "./components/header/header";
 @import "./components/about/about";
 @import "./components/features/features";
 @import "./components/tours/tours";
+@import "./components/testmonial/testmonial";
+@import "./components/booking/booking";
