@@ -25,6 +25,23 @@ const Booking = () => {
                 type="email"
                 isRequired={true}
               />
+              <div className="form__group mb-md">
+                <CustomInput
+                  type="radio"
+                  id="small"
+                  label="Small group tour"
+                  name="size"
+                />
+                <CustomInput
+                  type="radio"
+                  id="large"
+                  label="Large group tour"
+                  name="size"
+                />
+              </div>
+              <div className="form__group">
+                <button className="btn btn--green">Next Step &rarr;</button>
+              </div>
             </form>
           </div>
         </div>
