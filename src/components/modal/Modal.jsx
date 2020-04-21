@@ -29,7 +29,7 @@ const Modal = ({ setModal }) => {
             error debitis et culpa corrupti tempore.
           </p>
           <a
-            href="#tours-section"
+            href="#booking-section"
             className="btn btn--green"
             onClick={() => setModal(false)}
           >

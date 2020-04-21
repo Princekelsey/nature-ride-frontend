@@ -3,7 +3,7 @@ import CustomInput from "../form/CustomInput";
 
 const Booking = () => {
   return (
-    <section className="booking-section">
+    <section className="booking-section" id="booking-section">
       <div className="row">
         <div className="book">
           <div className="book__form">
