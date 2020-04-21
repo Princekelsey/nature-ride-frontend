@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer__logo-container">
         <img src="img/logo-green-2x.png" alt="logo" className="footer__logo" />
       </div>

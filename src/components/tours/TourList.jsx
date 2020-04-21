@@ -2,9 +2,9 @@ import React from "react";
 import tourData from "./data";
 import Tour from "./Tour";
 
-const TourList = () => {
+const TourList = ({ setModal }) => {
   return (
-    <section className="tours-section">
+    <section className="tours-section" id="tours-section">
       <div className="center-text mb-lg">
         <h2 className="heading-secondary">Popular Tours </h2>
       </div>
@@ -18,6 +18,7 @@ const TourList = () => {
             details={tour.details}
             price={tour.price}
             backClass={tour.backClass}
+            setModal={setModal}
           />
         ))}
       </div>

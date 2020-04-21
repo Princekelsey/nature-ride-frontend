@@ -4,7 +4,7 @@ import TextComposition from "./TextComposition";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about-section">
       <div className="center-text mb-lg">
         <h2 className="heading-secondary">
           Exciting tours for adventurous people

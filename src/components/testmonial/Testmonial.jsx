@@ -4,7 +4,7 @@ import Review from "./Review";
 
 const Testmonial = () => {
   return (
-    <section className="testmoinal-section">
+    <section className="testmoinal-section" id="testmoinal-section">
       <div className="bg-video">
         <video className="bg-video__content" autoPlay muted loop>
           <source src="img/video.mp4" type="video/mp4" />

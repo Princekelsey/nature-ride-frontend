@@ -6,13 +6,13 @@ import TourList from "../components/tours/TourList";
 import Testmonial from "../components/testmonial/Testmonial";
 import Booking from "../components/booking/Booking";
 
-const HomePage = () => {
+const HomePage = ({ setModal }) => {
   return (
     <main>
       <Header />
       <About />
       <Features />
-      <TourList />
+      <TourList setModal={setModal} />
       <Testmonial />
       <Booking />
     </main>

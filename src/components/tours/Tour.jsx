@@ -1,6 +1,14 @@
 import React from "react";
 
-const Tour = ({ image, title, titleClass, backClass, details, price }) => {
+const Tour = ({
+  image,
+  title,
+  titleClass,
+  backClass,
+  details,
+  price,
+  setModal,
+}) => {
   return (
     <div className="col-1-of-3">
       <div className="card">
@@ -23,7 +31,11 @@ const Tour = ({ image, title, titleClass, backClass, details, price }) => {
               <p className="card__price-only">Only</p>
               <p className="card__price-value">{price}</p>
             </div>
-            <a href="#" className="btn btn--white">
+            <a
+              href="#"
+              className="btn btn--white"
+              onClick={() => setModal(true)}
+            >
               Book now
             </a>
           </div>
