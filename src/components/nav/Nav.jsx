@@ -42,7 +42,7 @@ const Nav = () => {
             </a>
           </li>
           <li className="nav__list-item">
-            <a href="#tours-section" className="nav__link" onClick={hideNav}>
+            <a href="#booking-section" className="nav__link" onClick={hideNav}>
               Book Now
             </a>
           </li>
