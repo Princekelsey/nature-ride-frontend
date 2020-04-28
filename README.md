@@ -6,4 +6,4 @@ check out: https://nature-ride.netlify.app/
 ## Tools Used
 
 ReactJs<br>
-sass<>
+sass
